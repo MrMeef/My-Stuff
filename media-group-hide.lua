@@ -43,7 +43,7 @@ function script_properties()
 end
 
 function script_description()
-	return "Hide group when media sources when end"
+	return "Hide group when inputted media sources end"
 end
 
 function media_ended(cd)
