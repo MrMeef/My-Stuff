@@ -47,7 +47,7 @@ function script_description()
 end
 
 function media_ended(cd)
-    local target_source_name = "HideMediaGroup" -- Replace with the exact name of the source you want to hide
+    local target_source_name = "HideMediaGroup" -- Replace with the name of the source/group you want to hide
     local sources = obs.obs_enum_sources()
 
     if sources ~= nil then
